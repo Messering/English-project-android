@@ -1,1 +1,0 @@
-/Users/chudik47/Projects/Languages_pro_style/Languages_pro_style.UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

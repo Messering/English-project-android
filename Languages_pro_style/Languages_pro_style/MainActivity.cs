@@ -1,5 +1,6 @@
 ﻿using System;
 
+using Mono.Data.Sqlite;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -9,9 +10,28 @@ using Android.OS;
 
 namespace Languages_pro_style
 {
-	[Activity (Label = "Languages_pro_style", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "Languages_pro_style", MainLauncher = true, Icon = "@drawable/ic_dictionary")]
 	public class MainActivity : Activity
 	{
+		/*SqliteConnection GetConnection(string path)
+		{
+			SqliteConnectionStringBuilder builder = 
+				new SqliteConnectionStringBuilder();
+			if (!File.Exists(path))
+			{
+				FileInfo info = new FileInfo(path);
+				if (!Directory.Exists(info.Directory.FullName))
+				{
+					Directory.CreateDirectory(info.Directory.FullName);
+				}
+				SqliteConnection.CreateFile(path);
+			}
+			builder.DataSource = path;
+			return new SqliteConnection(builder.ToString());
+		}
+
+        */
+
 		//int count = 1;
 
 		protected override void OnCreate (Bundle bundle)

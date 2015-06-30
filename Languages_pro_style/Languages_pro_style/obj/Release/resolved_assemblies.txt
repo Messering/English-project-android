@@ -1,0 +1,11 @@
+E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\bin\Release\Languages_pro_style.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.2\Mono.Android.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Sqlite.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Data.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Tds.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Security.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Transactions.dll

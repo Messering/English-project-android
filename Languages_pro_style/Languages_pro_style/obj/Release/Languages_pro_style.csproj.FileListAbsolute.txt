@@ -25,3 +25,7 @@ E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\o
 E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\obj\Release\uploadflags.txt
 E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\obj\Release\res\drawable-hdpi\ic_dictionary.png
 E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\obj\Release\res\drawable-mdpi\ic_menu_search.png
+E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\bin\Release\SQLite-net.dll
+E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\bin\Release\SQLitePCL.raw.dll
+E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\bin\Release\SQLite-net.dll.mdb
+E:\Gir_project\English-project-android\Languages_pro_style\Languages_pro_style\obj\Release\Languages_pro_style.csprojResolveAssemblyReference.cache

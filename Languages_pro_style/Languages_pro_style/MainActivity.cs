@@ -32,6 +32,7 @@ namespace Languages_pro_style
 
         */
 
+
 		//int count = 1;
 
 		protected override void OnCreate (Bundle bundle)
@@ -45,6 +46,7 @@ namespace Languages_pro_style
 			Button buttonRLW = FindViewById<Button> (Resource.Id.buttonRepeatW);
 			Button buttonDictionary = FindViewById<Button> (Resource.Id.buttonDictionary);
 			Button buttonRT = FindViewById<Button> (Resource.Id.buttonRT);
+			//Button button_back = FindViewById<Button> (Resource.Id.back_to_main);
 
 			buttonLNW.Click += (sender, e) => {
 				var intent = new Intent (this, typeof(Learn_new_words));
@@ -65,6 +67,9 @@ namespace Languages_pro_style
 				var intent = new Intent (this, typeof(Reader_TranslaterAktivity));
 				StartActivity (intent);
 			};
+
+            var docsFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+            var pathToDatabase = System.IO.Path.Combine(docsFolder, "db_sqlnet.db");
 				
 		}
 	}

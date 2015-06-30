@@ -21,8 +21,16 @@ namespace Languages_pro_style
 			base.OnCreate (bundle);
 
 			SetContentView (Resource.Layout.DictionaryScreen);
+			Button button_back = FindViewById<Button> (Resource.Id.buttonback);
 
+            button_back.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
 			TextView txt3 = FindViewById<TextView> (Resource.Id.textViewDictionary);
+
+
 		}
 	}
 }

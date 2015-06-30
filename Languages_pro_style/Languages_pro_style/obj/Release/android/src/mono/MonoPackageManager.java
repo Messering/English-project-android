@@ -80,6 +80,14 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Languages_pro_style.dll",
+		"SQLite-net.dll",
+		"SQLitePCL.raw.dll",
+		"System.Diagnostics.Tracing.dll",
+		"System.Reflection.Emit.dll",
+		"System.Reflection.Emit.ILGeneration.dll",
+		"System.Reflection.Emit.Lightweight.dll",
+		"System.ServiceModel.Security.dll",
+		"System.Threading.Timer.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

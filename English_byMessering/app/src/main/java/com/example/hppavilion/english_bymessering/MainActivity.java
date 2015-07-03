@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
     private Button learn_words;
-    private Button repite_words;
+    private Button repeat_words;
     private Button dictionary;
     private Button reader;
 
@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
                     Intent intent = new Intent(MainActivity.this, Learn_wordsActivity.class);
                     startActivity(intent);
                 }
-                if (v == repite_words){
+                if (v == repeat_words){
                     Intent intent = new Intent(MainActivity.this, Repite_wordsActivity.class);
                     startActivity(intent);
                 }
@@ -46,8 +46,8 @@ public class MainActivity extends ActionBarActivity {
         };
         learn_words=(Button) findViewById(R.id.learn_words);
         learn_words.setOnClickListener(lis);
-        repite_words=(Button) findViewById(R.id.repite_words);
-        repite_words.setOnClickListener(lis);
+        repeat_words=(Button) findViewById(R.id.repite_words);
+        repeat_words.setOnClickListener(lis);
         dictionary=(Button) findViewById(R.id.dictionary);
         dictionary.setOnClickListener(lis);
         reader=(Button) findViewById(R.id.reader);

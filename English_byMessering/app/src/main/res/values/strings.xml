@@ -7,4 +7,13 @@
     <string name="title_activity_repite_words">Repite_wordsActivity</string>
     <string name="title_activity_dictionary">DictionaryActivity</string>
     <string name="title_activity_reader">ReaderActivity</string>
+    //MainMenu
+    <string name="learn_words">Вивчити нові слова</string>
+    <string name="repeat_words">Повторити вивчені слова</string>
+    <string name="dictionary">Словник</string>
+    <string name="reader">Читалка-Перекладач</string>
+
+   //singin
+    <string name="edit_message">Ім'я</string>
+    <string name="button_send">Готово</string>
 </resources>

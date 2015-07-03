@@ -8,7 +8,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вивчити нові слова"
+        android:text="@string/learn_words"
         android:id="@+id/learn_words"
         android:layout_above="@+id/repite_words"
         android:layout_alignRight="@+id/repite_words"
@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Повторити вивчені слова"
+        android:text="@string/repeat_words"
         android:id="@+id/repite_words"
         android:layout_above="@+id/dictionary"
         android:layout_alignParentLeft="true"
@@ -31,7 +31,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Словник"
+        android:text="@string/dictionary"
         android:id="@+id/dictionary"
         android:layout_above="@+id/reader"
         android:layout_alignLeft="@+id/repite_words"
@@ -42,7 +42,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Читалка-перекладач"
+        android:text="@string/reader"
         android:id="@+id/reader"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/dictionary"

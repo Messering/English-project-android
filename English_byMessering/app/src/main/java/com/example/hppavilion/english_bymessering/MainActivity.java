@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
 
                 if (v == learn_words){
-                    Intent intent = new Intent(MainActivity.this, Learn_wordsActivity.class);
+                    Intent intent = new Intent(MainActivity.this, learnwordsActivity.class);
                     startActivity(intent);
                 }
                 if (v == repite_words){

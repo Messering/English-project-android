@@ -1,23 +1,39 @@
 package com.example.hppavilion.english_bymessering;
 
+import android.app.ActionBar;
+import android.app.ListActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 
-public class Learn_wordsActivity extends ActionBarActivity {
+public class learnwordsActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_learn_words);
+      setContentView(R.layout.activity_learnwords);
+
+        String[] lessons = new String[] { "lesson 1", "lesson 2", "lesson 3",
+                "lesson 4", "lesson 5", "lesson 6", "lesson 7", "lesson 8", "lesson 9",
+                "lesson 10", "lesson 11", "lesson 12", "lesson 13", "lesson 14", "lesson 15" };
+       //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getListView().getContext(), R.layout.activity_learnwords,lessons);
+        //getListView().setAdapter(adapter);
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+              //  android.R.layout.simple_list_item_1, lessons);
+       // setListAdapter(adapter);
+        setListAdapter(new MyAdapter(this, lessons));
+
+
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_learn_words, menu);
+        getMenuInflater().inflate(R.menu.menu_learnwords, menu);
         return true;
     }
 

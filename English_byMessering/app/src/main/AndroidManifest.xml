@@ -17,14 +17,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Learn_wordsActivity"
-            android:label="@string/title_activity_learn_words"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.hppavilion.english_bymessering.MainActivity" />
-        </activity>
-        <activity
             android:name=".Repite_wordsActivity"
             android:label="@string/title_activity_repite_words"
             android:parentActivityName=".MainActivity" >
@@ -43,6 +35,14 @@
         <activity
             android:name=".ReaderActivity"
             android:label="@string/title_activity_reader"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hppavilion.english_bymessering.MainActivity" />
+        </activity>
+        <activity
+            android:name=".learnwordsActivity"
+            android:label="@string/title_activity_learnwords"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

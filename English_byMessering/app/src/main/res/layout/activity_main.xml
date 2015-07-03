@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вивчити нові слова"
+        android:id="@+id/learn_words"
+        android:layout_above="@+id/repite_words"
+        android:layout_alignRight="@+id/repite_words"
+        android:layout_alignEnd="@+id/repite_words"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="false"
+        android:onClick="learn_words" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Повторити вивчені слова"
+        android:id="@+id/repite_words"
+        android:layout_above="@+id/dictionary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="repite_words" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Словник"
+        android:id="@+id/dictionary"
+        android:layout_above="@+id/reader"
+        android:layout_alignLeft="@+id/repite_words"
+        android:layout_alignStart="@+id/repite_words"
+        android:layout_alignRight="@+id/repite_words"
+        android:layout_alignEnd="@+id/repite_words"
+        android:onClick="dictionary" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Читалка-перекладач"
+        android:id="@+id/reader"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/dictionary"
+        android:layout_alignStart="@+id/dictionary"
+        android:layout_alignRight="@+id/dictionary"
+        android:layout_alignEnd="@+id/dictionary"
+        android:onClick="reader" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Some problem"
+        android:id="@+id/textView"
+        android:layout_below="@+id/reader"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/reader"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+</RelativeLayout>

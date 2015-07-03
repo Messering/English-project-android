@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/English_byMessering/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-8565d8a53cd68adacfad143f18f5794ed6394c6b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/English_byMessering/app/build/intermediates/pre-dexed/debug/classes-762238f4f173ff933ff6782bcbceec0b1e063faa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/English_byMessering/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-4c537d9102907a1c54205155d1c7962b4bfec9b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/English_byMessering/app/build/intermediates/pre-dexed/debug/classes-322a9d309b2b164ed14ae88b1ffc5fb48bc85a6c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

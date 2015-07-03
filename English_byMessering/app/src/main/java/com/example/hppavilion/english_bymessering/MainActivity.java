@@ -26,7 +26,6 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-
                 if (v == learn_words){
                     Intent intent = new Intent(MainActivity.this, Learn_wordsActivity.class);
                     startActivity(intent);

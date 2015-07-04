@@ -15,7 +15,7 @@ public class learnwordsActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      setContentView(R.layout.activity_learnwords);
+     // setContentView(R.layout.activity_learnwords);
 
         String[] lessons = new String[] { "lesson 1", "lesson 2", "lesson 3",
                 "lesson 4", "lesson 5", "lesson 6", "lesson 7", "lesson 8", "lesson 9",

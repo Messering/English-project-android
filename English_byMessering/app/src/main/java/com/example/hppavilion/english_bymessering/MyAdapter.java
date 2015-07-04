@@ -21,8 +21,7 @@ public class MyAdapter extends ArrayAdapter<String> {
         this.names = names;
     }
 
-    // Класс для сохранения во внешний класс и для ограничения доступа
-    // из потомков класса
+
     static class ViewHolder {
         public ImageView imageView;
         public TextView textView;
@@ -30,11 +29,10 @@ public class MyAdapter extends ArrayAdapter<String> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // ViewHolder буферизирует оценку различных полей шаблона элемента
+
 
         ViewHolder holder;
-        // Очищает сущетсвующий шаблон, если параметр задан
-        // Работает только если базовый шаблон для всех классов один и тот же
+
         View rowView = convertView;
         if (rowView == null) {
             LayoutInflater inflater = context.getLayoutInflater();
@@ -48,7 +46,7 @@ public class MyAdapter extends ArrayAdapter<String> {
         }
 
         holder.textView.setText(names[position]);
-        // Изменение иконки для Windows и iPhone
+
         String s = names[position];
         if (s.startsWith("lesson 1") || s.startsWith("lesson 6")
                 || s.startsWith("lesson 13")) {
